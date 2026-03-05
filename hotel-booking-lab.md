@@ -401,7 +401,7 @@ app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
 npm run dev
 ```
 
-ผลลัพธ์ที่ควรเห็น:
+ผลลัพธ์ที่ควรเห็น: 
 
 ```
 [nodemon] starting `node server.js`
@@ -411,7 +411,7 @@ Server running on port 3001
 
 ### 📸 บันทึกผลการทดลอง: ผลการรัน Backend Server
 
-> ![alt text](ผลการรัน.png))
+> ![alt text](image.png)
 
 ---
 
@@ -457,7 +457,7 @@ Server running on port 3001
 **คัดลอก token** ไปวางใน Globals Variable ชื่อ `token` (ทั้ง Initial value และ Current value) แล้วกด **Save**
 
 ### 📸 บันทึกผลการทดลอง: ผลการทดสอบ Login และ Token
-![alt text](<ผลการทดสอบ Login และ Token (2).png>)
+![alt text](image-1.png)
 
 ---
 
@@ -489,7 +489,7 @@ Headers: Content-Type: application/json
 
 ### 📸 บันทึกผลการทดลอง: ผลการเพิ่มข้อมูลการจอง (POST) 3 รายการ
 
-> ![alt text](ผลการเพิ่มข้อมูลการจอง.png)
+> ![alt text](image-2.png)
 
 ---
 
@@ -505,7 +505,7 @@ Headers: Authorization: Bearer {{token}}
 
 ### 📸 บันทึกผลการทดลอง: ผลการ GET ข้อมูลทั้งหมด
 
-> ![alt text](ผลการGetอมูลทั้งหมด.png)
+> ![alt text](image-3.png)
 
 > ⚠️ หาก response แจ้ง `"Token ไม่ถูกต้องหรือหมดอายุ"` ให้ Login ใหม่แล้วอัปเดต token ใน Globals
 
@@ -521,7 +521,7 @@ Headers: Authorization: Bearer {{token}}
 
 ### 📸 บันทึกผลการทดลอง: ผลการ GET ข้อมูลโดยระบุ ID
 
-> ![alt text](<ผลการ GET ข้อมูลโดยระบุ ID1.png>)
+> ![alt text](image-4.png)
 
 ---
 
